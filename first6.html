@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="keywords" content="HTML,CSS">
+<meta name="author" content="Daaru">
+<style>
+body{background-color:grey;}
+ul      {
+	      background-color:black;
+	      color:white;
+	      border:0;
+	      text-align:left;
+	      overflow:hidden;
+        }
+li     {
+	      list-style-type:none;
+	      float:left;
+       }
+li a {
+	      display:block;
+	      color:white;
+	      padding:24px;
+	      text-decoration:none;
+     }
+</style>
+</head>
+<body>
+<!--to put a menu bar-->
+<div>
+<ul>
+<li><a href="first.html">HOME</a></li>
+<li><a href="service.html">SERVICES</a></li>
+<li><a href="first3.html">ABOUT</a></li>
+<li><a href="first4.html">PROJECTS</a></li>
+<li><a href="first6.html">CONTACT</a></li>
+</ul>
+</div>
+<!--to group the data includind form using this element-->
+<!--<nav style="float:right;width:200;height:600;background-color:grey;">
+</nav>-->
+<!--to put data on right hand side in a sidebar-->
+<aside class="right" style="float:right;margin-right:200px">
+<h1 style="size:100%;font-family:verdana">Head Office</h1>
+<h3>500 Terry Fancos Street<br>San Fransisco,CA 8898
+<br>
+<br>
+infoconstructions@gmail.com
+<br>
+<em>Tel</em>:38899900<br>
+<em>Fax</em>:13-456-789</h3>
+<br>
+<br>
+<h1 style="size:100%;font-family:verdana">Employment</h1>
+<h3>To apply for a job <br>with Sphere Constructions,<br>please send a cover letter <br>together with C.V. to the<br> above email-id</h3>
+</aside>
+<article style="margin-left:100px;margin-right:650px;padding 1em;">
+<h1 style="size:100%;font-family:verdana">Inquiries</h1>
+<p>
+<h3>For any inquiries,questions or commendations , please call 123-456-789 or fill the following form and first 4 callers will get great benefits and schemes
+</h3>
+</p>
+<br>
+<br>
+<!--usinf form element to create a form -->
+<form  autocomplete="on">
+<fieldset style="padding:24px">
+<legend>INFORMATION</legend>
+<!--using capital values in input element because it looks good
+  using size attribute so that it dont look odd with the above article-->
+<input type="text" name="name" value="NAME" size="70"  style="background-color:powderblue" autofocus="on">
+<br><br>
+<input type="email" name="email" value="E-MAIL" size="70" style="background-color:powderblue" required >
+<br><br>
+<input type="text" name="subject" value="SUBJECT" size="70" style="background-color:powderblue">
+<br><br>
+<textarea name="message" value="message" rows="9" cols="72" style="background-color:powderblue">
+MESSAGE
+</textarea>
+</fieldset>
+<h3>Click here to Submit:
+<input type="submit" value="SUBMIT"></h3>
+</form>
+<br>
+</article>
+<footer style="background-color:black;color:white;padding:15px;text-align:center">
+<h3>For more information<em> Contact:123-456-789 </em></h3></footer>
+</body>
+</html>
